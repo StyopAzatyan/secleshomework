@@ -1,15 +1,11 @@
 import './App.css';
+import  List  from "./containers/List/List";
 
-import { Title } from "./components/ListItem1/ListItem1"
-import { Button } from "./components/ListItem2/ListItem2";
-import { Description } from "./components/ListItem3/ListItem3";
 
 function App() {
   return (
     <div className="App">
-      <Title />
-      <Button />
-      <Description />
+      <List/>
     </div>
   );
 }

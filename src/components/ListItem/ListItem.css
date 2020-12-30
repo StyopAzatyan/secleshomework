@@ -1,0 +1,16 @@
+
+.ListItemPicture{
+    width: 200px;
+    height: 150px;
+}
+li{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+}
+.button{
+    width: 110px;
+}
+.firstOfP{
+    font-weight: 700;
+}
